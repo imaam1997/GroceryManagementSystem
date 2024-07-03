@@ -1,0 +1,143 @@
+[
+    {
+        "name": "Ahmed Imaam",
+        "address": "124 Galt Avenue",
+        "payment": "Cash",
+        "items": [
+            {
+                "name": "Mango",
+                "quantity": "5",
+                "price": "1"
+            }
+        ]
+    },
+    {
+        "name": "Kunal",
+        "address": "565 Sherbourne Street",
+        "payment": "Cash",
+        "items": [
+            {
+                "name": "White Grape",
+                "quantity": "5",
+                "price": "5"
+            }
+        ]
+    },
+    {
+        "name": "Ashish",
+        "address": "123. This St.",
+        "payment": "Debit",
+        "items": [
+            {
+                "name": "Mango",
+                "quantity": "5",
+                "price": "1"
+            },
+            {
+                "name": "White Grape",
+                "quantity": "5",
+                "price": "5"
+            }
+        ]
+    },
+    {
+        "name": "Ahmed Imaam",
+        "address": "124 Galt Avenue",
+        "payment": "Debit",
+        "items": [
+            {
+                "name": "White Grape",
+                "quantity": "5",
+                "price": "5"
+            }
+        ]
+    },
+    {
+        "name": "Cecil",
+        "address": "123, That St. ",
+        "payment": "Credit",
+        "items": [
+            {
+                "name": "Milk 4L",
+                "quantity": "2",
+                "price": "6"
+            },
+            {
+                "name": "Eggs",
+                "quantity": "30",
+                "price": "12"
+            },
+            {
+                "name": "Cheddar Cheese",
+                "quantity": "5",
+                "price": "5"
+            }
+        ]
+    },
+    {
+        "name": "Romit",
+        "address": "56, CN Tower A",
+        "payment": "Credit",
+        "items": [
+            {
+                "name": "Chicken Breast",
+                "quantity": "5",
+                "price": "10"
+            },
+            {
+                "name": "Ground Beef",
+                "quantity": "1",
+                "price": "9"
+            },
+            {
+                "name": "Instant Noodles",
+                "quantity": "50",
+                "price": "1"
+            }
+        ]
+    },
+    {
+        "name": "Pratham",
+        "address": "789, Kipling St",
+        "payment": "Cash",
+        "items": [
+            {
+                "name": "Mango",
+                "quantity": "5",
+                "price": "1"
+            },
+            {
+                "name": "Chicken Breast",
+                "quantity": "2",
+                "price": "10"
+            },
+            {
+                "name": "Cheddar Cheese",
+                "quantity": "1",
+                "price": "5"
+            }
+        ]
+    },
+    {
+        "name": "John",
+        "address": "21123 Rand St.",
+        "payment": "Debit",
+        "items": [
+            {
+                "name": "Mango",
+                "quantity": "1",
+                "price": "1"
+            },
+            {
+                "name": "Instant Noodles",
+                "quantity": "1",
+                "price": "1"
+            },
+            {
+                "name": "Milk 4L",
+                "quantity": "1",
+                "price": "6"
+            }
+        ]
+    }
+]

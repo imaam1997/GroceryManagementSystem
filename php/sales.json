@@ -1,0 +1,34 @@
+{
+    "Mango": {
+        "name": "Mango",
+        "quantity": 16
+    },
+    "White Grape": {
+        "name": "White Grape",
+        "quantity": 15
+    },
+    "Milk 4L": {
+        "name": "Milk 4L",
+        "quantity": 3
+    },
+    "Eggs": {
+        "name": "Eggs",
+        "quantity": "30"
+    },
+    "Cheddar Cheese": {
+        "name": "Cheddar Cheese",
+        "quantity": 6
+    },
+    "Chicken Breast": {
+        "name": "Chicken Breast",
+        "quantity": 7
+    },
+    "Ground Beef": {
+        "name": "Ground Beef",
+        "quantity": "1"
+    },
+    "Instant Noodles": {
+        "name": "Instant Noodles",
+        "quantity": 51
+    }
+}

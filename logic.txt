@@ -1,0 +1,78 @@
+PHP Folder
+- add.php
+  - This file handles the addition of a new item to the inventory.
+  - It retrieves form data submitted by the user, including the item name, type, price, quantity, and expiry date.
+  - Checks if the item name already exists in the inventory. If not, it adds the item name to the list of grocery items.
+  - Adds the item details to the itemDetails array.
+  - Saves the updated data to the JSON file.
+  - Finally, it redirects back to the inventory display page after adding the item.
+
+- data_handler.php
+  - This file contains functions and data related to handling the inventory data.
+  - It defines the data file path and checks if the file exists. If not, it creates it with initial data.
+  - Loads existing data from the JSON file.
+  - Initializes the necessary keys if they do not exist in the data array.
+  - Defines a function getItemDetails() to retrieve item details by name.
+
+- process_order.php
+  - This file processes the order placed by a customer.
+  - Retrieves form data submitted by the user, including the customer name, address, quantities of items, and payment method.
+  - Loads inventory and sales data from JSON files.
+  - Iterates over the selected items and checks if there is enough stock for each item.
+  - Updates the inventory and sales data accordingly.
+  - Displays an alert if there is not enough stock for some items and redirects back to the order page.
+  - If all items are available, it updates the inventory, appends the order details to the existing order file, and saves the sales data.
+  - Finally, it displays the order summary to the customer.
+
+- update_quantity.php
+  - This file handles the update of item quantity in the inventory.
+  - Retrieves form data submitted by the user, including the item name and updated quantity.
+  - Updates the item quantity in the itemDetails array.
+  - Saves the updated data to the JSON file.
+  - Redirects back to the inventory display page after updating the quantity.
+
+Customer Folder
+- customer_home.php
+  - This file is the homepage for customers.
+  - It provides a link to the "Place Order" page and a logout option.
+
+- customer_order.php
+  - This file allows customers to place orders.
+  - It displays a form where customers can enter their name, address, select items to order, and choose a payment method.
+  - The "Next" button takes them to the next page to select item quantities.
+
+- select_quantities.php
+  - This file displays a form where customers can select quantities for the items they want to order.
+  - After selecting quantities and clicking the "Submit Order" button, the order is processed.
+
+Staff Functions
+
+- add.php
+  - This file handles the addition of a new item to the inventory.
+  - It retrieves form data submitted by the staff, including the item name, type, price, quantity, and expiry date.
+  - Checks if the item name already exists in the inventory. If not, it adds the item name to the list of grocery items.
+  - Adds the item details to the itemDetails array.
+  - Saves the updated data to the JSON file.
+  - Finally, it redirects back to the inventory display page after adding the item.
+
+- data_handler.php
+  - This file contains functions and data related to handling the inventory data.
+  - It defines the data file path and checks if the file exists. If not, it creates it with initial data.
+  - Loads existing data from the JSON file.
+  - Initializes the necessary keys if they do not exist in the data array.
+  - Defines a function getItemDetails() to retrieve item details by name.
+
+- update_quantity.php
+  - This file handles the update of item quantity in the inventory.
+  - Retrieves form data submitted by the staff, including the item name and updated quantity.
+  - Updates the item quantity in the itemDetails array.
+  - Saves the updated data to the JSON file.
+  - Redirects back to the inventory display page after updating the quantity.
+
+- display_inventory.php
+  - This file displays the current inventory of items.
+  - It retrieves the inventory data from the JSON file and presents it in a formatted manner for staff to view.
+
+- display_sales_report.php
+  - This file generates and displays a sales report for the staff.
+  - It retrieves sales data from the JSON file and presents it in a formatted report, showing the total quantity sold for each item and all order details.
